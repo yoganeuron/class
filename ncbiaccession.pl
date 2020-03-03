@@ -9,7 +9,7 @@ $gi_list = '24475906,224465210,50978625,9507198';
 #db=nucleotide ; searching the nucleotide database
 #id= ; this is  where you specify the accesion number
 #$gi_list ; this variable we created and holds several accession numbers. This is how you would do multiple searches with one line of code.
-#rettype=acc ; retrieve type/we are searching with accesion number
+#rettype=acc ; retrieve type/we are searching with accesion number. If you don't specify this you will get all the information.
 #efetch is a program
 #You separate you parameters by the & symbol
 $base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
